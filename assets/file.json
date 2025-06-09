@@ -1,0 +1,156 @@
+
+{
+    "industries": [
+      "Technology",
+      "Construction",
+      "Professional Services",
+      "Retail",
+      "Manufacturing",
+      "Sales/Marketing",
+      "Finance"
+    ],
+    
+    "provinces": [
+      "Alberta",
+      "British Columbia",
+      "Manitoba",
+      "Ontario",
+      "Saskatchewan"
+    ],
+        
+
+
+    "rates": {
+        "Technology": {
+          "Manitoba": {"single": {"bronze": 100, "silver": 120, "gold": 140}, "family": {"bronze": 250, "silver": 280, "gold": 320}},
+          "BritishColumbia": {"single": {"bronze": 120, "silver": 144, "gold": 168}, "family": {"bronze": 300, "silver": 336, "gold": 384}},
+          "Ontario": {"single": {"bronze": 110, "silver": 132, "gold": 154}, "family": {"bronze": 275, "silver": 308, "gold": 352}},
+          "Alberta": {"single": {"bronze": 90, "silver": 108, "gold": 126}, "family": {"bronze": 225, "silver": 252, "gold": 288}},
+          "Saskatchewan": {"single": {"bronze": 80, "silver": 96, "gold": 112}, "family": {"bronze": 200, "silver": 224, "gold": 256}}
+        },
+        "Construction": {
+          "Manitoba": {"single": {"bronze": 130, "silver": 156, "gold": 182}, "family": {"bronze": 325, "silver": 364, "gold": 416}},
+          "BritishColumbia": {"single": {"bronze": 187, "silver": 225, "gold": 262}, "family": {"bronze": 468, "silver": 524, "gold": 599}},
+          "Ontario": {"single": {"bronze": 157, "silver": 189, "gold": 220}, "family": {"bronze": 393, "silver": 440, "gold": 503}},
+          "Alberta": {"single": {"bronze": 117, "silver": 140.4, "gold": 163.8}, "family": {"bronze": 292.5, "silver": 372.6, "gold": 374.4}},
+          "Saskatchewan": {"single": {"bronze": 104, "silver": 124.8, "gold": 145.6}, "family": {"bronze": 260, "silver": 291.2, "gold": 332.8}}
+        },
+        "ProfessionalServices": {
+          "Manitoba": {"single": {"bronze": 90, "silver": 108, "gold": 126}, "family": {"bronze": 225, "silver": 252, "gold": 288}},
+          "BritishColumbia": {"single": {"bronze": 130, "silver": 156, "gold": 181}, "family": {"bronze": 324, "silver": 363, "gold": 415}},
+          "Ontario": {"single": {"bronze": 109, "silver": 131, "gold": 152}, "family": {"bronze": 272, "silver": 305, "gold": 348}},
+          "Alberta": {"single": {"bronze": 81, "silver": 97.2, "gold": 113.4}, "family": {"bronze": 202.5, "silver": 226.8, "gold": 259.2}},
+          "Saskatchewan": {"single": {"bronze": 72, "silver": 86.4, "gold": 100.8}, "family": {"bronze": 180, "silver": 201.6, "gold": 230.4}}
+        },
+        "Retail": {
+          "Manitoba": {"single": {"bronze": 140, "silver": 168, "gold": 196}, "family": {"bronze": 350, "silver": 392, "gold": 448}},
+          "BritishColumbia": {"single": {"bronze": 202, "silver": 242, "gold": 282}, "family": {"bronze": 504, "silver": 564, "gold": 645}},
+          "Ontario": {"single": {"bronze": 169, "silver": 203, "gold": 237}, "family": {"bronze": 424, "silver": 474, "gold": 542}},
+          "Alberta": {"single": {"bronze": 126, "silver": 151.2, "gold": 176.4}, "family": {"bronze": 315, "silver": 352.8, "gold": 403.2}},
+          "Saskatchewan": {"single": {"bronze": 112, "silver": 134.4, "gold": 156.8}, "family": {"bronze": 280, "silver": 313.6, "gold": 358.4}}
+        },
+        "Manufacturing": {
+          "Manitoba": {"single": {"bronze": 130, "silver": 156, "gold": 182}, "family": {"bronze": 325, "silver": 364, "gold": 416}},
+          "BritishColumbia": {"single": {"bronze": 187, "silver": 225, "gold": 262}, "family": {"bronze": 468, "silver": 524, "gold": 599}},
+          "Ontario": {"single": {"bronze": 157, "silver": 189, "gold": 220}, "family": {"bronze": 393, "silver": 440, "gold": 503}},
+          "Alberta": {"single": {"bronze": 117, "silver": 140.4, "gold": 163.8}, "family": {"bronze": 292.5, "silver": 372.6, "gold": 374.4}},
+          "Saskatchewan": {"single": {"bronze": 104, "silver": 124.8, "gold": 145.6}, "family": {"bronze": 260, "silver": 291.2, "gold": 332.8}}
+        },
+        "SalesMarketing": {
+          "Manitoba": {"single": {"bronze": 90, "silver": 108, "gold": 126}, "family": {"bronze": 225, "silver": 252, "gold": 288}},
+          "BritishColumbia": {"single": {"bronze": 130, "silver": 156, "gold": 181}, "family": {"bronze": 324, "silver": 363, "gold": 415}},
+          "Ontario": {"single": {"bronze": 109, "silver": 131, "gold": 152}, "family": {"bronze": 272, "silver": 305, "gold": 348}},
+          "Alberta": {"single": {"bronze": 81, "silver": 97.2, "gold": 113.4}, "family": {"bronze": 202.5, "silver": 226.8, "gold": 259.2}},
+          "Saskatchewan": {"single": {"bronze": 72, "silver": 86.4, "gold": 100.8}, "family": {"bronze": 180, "silver": 201.6, "gold": 230.4}}
+        },
+        "Finance": {
+          "Manitoba": {"single": {"bronze": 100, "silver": 200, "gold": 300}, "family": {"bronze": 225, "silver": 252, "gold": 288}},
+          "BritishColumbia": {"single": {"bronze": 130, "silver": 156, "gold": 181}, "family": {"bronze": 324, "silver": 363, "gold": 415}},
+          "Ontario": {"single": {"bronze": 109, "silver": 131, "gold": 152}, "family": {"bronze": 272, "silver": 305, "gold": 348}},
+          "Alberta": {"single": {"bronze": 81, "silver": 97.2, "gold": 113.4}, "family": {"bronze": 202.5, "silver": 226.8, "gold": 259.2}},
+          "Saskatchewan": {"single": {"bronze": 72, "silver": 86.4, "gold": 100.8}, "family": {"bronze": 180, "silver": 201.6, "gold": 230.4}}
+        }
+
+
+
+  },
+
+
+  "inclusions": {
+    "bronze": [
+      {
+        "name": "$10,000 Employee Life Insurance", "description": ""
+      },
+      {
+        "name": "Accidental Death & Dismemberment (AD&D)", "description": "Matches Basic Life benefit"
+      },
+      {
+        "name": "Prescription Drugs: $2,000/year 80% reimbursement", "description": ""
+      },
+      {
+        "name": "Paramedical: $300 per calendar year 80% reimbursement", "description": ""
+      },
+      {
+        "name": "Travel Insurance", "description": ""
+      },
+      {
+        "name": "Dental Care (Basic): $1,000/year 80% reimbursement", "description": ""
+      }
+    ],
+ 
+    "silver": [
+      {
+        "name": "$25,000 Employee Life Insurance", "description": ""
+      },
+      {
+        "name": "Accidental Death & Dismemberment (AD&D)", "description": "Matches Basic Life benefit"
+      },
+      {
+        "name": "Prescription Drugs: $5,000/year 80% reimbursement", "description": ""
+      },
+      {
+        "name": "Paramedical: $500 per calendar year 80% reimbursement", "description": "Massage, Physiotherapy, Chiropractic, etc."
+      },
+      {
+        "name": "Travel Insurance", "description": "$5,000,000 lifetime maximum"
+      },
+      {
+        "name": "Vision Care: $200 every 24 months 80% reimbursement", "description": ""
+      },
+      {
+        "name": "Dental Care (Basic): $1,500/year 80% reimbursement", "description": ""
+      }
+    ],
+
+    "gold": [
+      {
+        "name": "$100,000 Employee Life Insurance", "description": ""
+      },
+      {
+        "name": "Accidental Death & Dismemberment (AD&D)", "description": "Matches Basic Life benefit"
+      },
+      {
+        "name": "$300,000 Critical Illness Insurance", "description": ""
+      },
+      {
+        "name": "Prescription Drugs: Unlimited 100% reimbursement", "description": ""
+      },
+      {
+        "name": "Paramedical: $500 per calendar year 100% reimbursement", "description": ""
+      },
+      {
+        "name": "Travel Insurance", "description": ""
+      },
+      {
+        "name": "Vision Care: $500 every 24 months 100% reimbursement", "description": ""
+      },
+      {
+        "name": "Dental Care (Basic & Major): $2,000/year 100% reimbursement", "description": ""
+      },
+      {
+        "name": "Employee Assistance Program (EAP)", "description": "An EAP is a voluntary, confidential service provided by some employers that could help you address financial, caregiver, health or relationship concerns."
+      }
+    ]
+
+  }
+}
